@@ -7,7 +7,7 @@ exports.handler = async (event) => {
         body: JSON.stringify('Hello from Lambda!'),
     }; 
     try{
-       const sql = require("mysql1");
+       const sql = require("mysql9");
        //const https = require('https')
     } catch(err){
         const response = {
